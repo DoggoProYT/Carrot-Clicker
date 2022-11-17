@@ -52,9 +52,9 @@ var storedValue = localStorage.getItem("input");
 
 //Load audio
 
-var clicked = new Audio(); clicked.src = "audio/clicked.wav"; clicked.preload = "auto";
-var bought = new Audio(); bought.src = "audio/bought.wav"; bought.preload = "auto";
-var clickerror = new Audio(); clickerror.src = "audio/clickerror.wav"; clickerror.preload = "auto";
+var clicked = new Audio(); clicked.src = "clicked.wav"; clicked.preload = "auto";
+var bought = new Audio(); bought.src = "bought.wav"; bought.preload = "auto";
+var clickerror = new Audio(); clickerror.src = "clickerror.wav"; clickerror.preload = "auto";
 
 //Intervals
 
